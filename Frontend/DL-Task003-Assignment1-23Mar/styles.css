@@ -1,0 +1,42 @@
+body {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0px;
+}
+
+header {
+    position: sticky;
+    top: 15px;
+}
+
+.navigation {
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navigation li {
+    display: inline;
+}
+
+button {
+    background-color: white;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.navigation li a:hover {
+    color: white;
+}
+
+.navigation li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+
+}

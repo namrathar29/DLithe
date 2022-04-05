@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .header{
+        display: inline;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .right-nav li{
+        margin-left: -2%;
+        list-style-type: none;
+    }
+    
+    .center-nav ul{
+       float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center-nav ul li{
+        list-style: none;
+        margin-left: 62px;
+    }
+    .center-nav ul li a{
+        display: flex;
+        justify-content:space-between;
+        position:relative;
+    }
+    
+    .left-nav li{
+        list-style-type: none;
+        border: 1px solid yellow;
+        width: 100px;
+        height: 30px;
+        padding: 5%;
+        background-color: yellow;
+        color: black;
+        margin-left: -2%; 
+    
+    }
+    
+    .logos {
+        display: inline-block;
+        display: flex;
+        justify-content:space-between;
+        position:relative;
+    }
+    .images {
+        display: inline-block;
+        display: flex;
+        justify-content:space-between;
+        position:relative;
+    }
+    
+    .heading{
+        padding-left: 20px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap ;
+       
+    }
+    .h12{
+        margin-left: 400px; 
+        margin-bottom: 0px;
+    }
+    .para{
+        padding-right: 10px;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
+    .text2{
+        display: flex;
+        align-items: flex-end;
+        margin-left: 50px; 
+        margin-bottom: 0px;
+        padding-left: 20px;
+        
+    }
+    .text3{
+        box-sizing: border-box;
+        background: gray;
+        color: rgb(204, 198, 198);
+        position: relative;
+        width: 100%; 
+        padding-bottom: 25px;
+        margin-right: 50px;
+    }
+.t1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.t2{
+    padding: 10px;
+}
+
+.get-in-touch{
+    border: 1px solid yellow;
+    width: 120px;
+    padding: 1%;
+    background-color: yellow;
+    color: black;
+    
+}
+.footer{
+    box-sizing: border-box;
+    background: gray;
+    padding-right: 10px;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-between;
+        padding: 0px;
+}
+
+.logo {
+    display: inline-block;
+    display: flex;
+    
+}
+
+
+    
