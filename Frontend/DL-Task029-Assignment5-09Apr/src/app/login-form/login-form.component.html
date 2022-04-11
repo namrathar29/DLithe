@@ -1,0 +1,23 @@
+<div fxLayoutAlign="center center" fxFlexFill>
+    <mat-card fxFlex="25">
+      <mat-toolbar>Login Page</mat-toolbar>
+      <form fxLayoutAlign="stretch" fxLayout="column"
+      #signinForm="ngForm" (ngSubmit)="loginUser(signinForm)">
+  
+        <mat-form-field>
+          <input matInput placeholder="Username"
+          name="user" 
+          ngModel user required #user="ngModel">
+        </mat-form-field>
+      
+        <mat-form-field> 
+          <input matInput type="password" placeholder="Password"
+          name="pass" 
+          ngModel pass required #pass="ngModel">
+        </mat-form-field>
+        <button mat-raised-button type="submit" class="btn" [disabled]="!signinForm.valid">Login</button>
+        <br>
+  <small class="new-user" [routerLink]="['/registration-form']">New user? Register here</small>
+      </form>
+    </mat-card>
+  </div>

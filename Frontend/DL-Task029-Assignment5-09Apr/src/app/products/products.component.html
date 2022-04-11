@@ -1,0 +1,21 @@
+<div *ngFor="let p of products">
+    <div class="product-container">
+        <div class="image-container">
+            <img [src]="p.image" alt="" width="70px"> 
+            <!-- property binding -->
+        </div>
+        <div>
+            <div class="name-container">
+                <h4><b>{{p.name}}</b></h4>
+            </div>
+            <div class="detail-container">
+                <div class="details">{{ p.available }}</div>
+                <div class="details"><b>Price: </b>{{p.price}}</div>
+            </div>
+        </div>
+        <div class="options">
+            <button class="btn1">Show Details</button>
+            <button class="btn2">Buy Now</button>
+        </div>
+    </div>
+</div>

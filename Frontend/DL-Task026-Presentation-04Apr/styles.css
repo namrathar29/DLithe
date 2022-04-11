@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+   /* align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    */
+    
+}
+
+.btn{
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 1%;
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 80%;
+}
+
+
+.navlist{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.navlist li{
+    list-style: none;
+    padding: 25px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navlist li a:hover{
+    text-decoration: none;
+    color:grey;
+}
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    color: white;
+}
+
+.background_image{
+    background-image: url(./Images/home2.jpg);
+}
+
+.heading h1{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.intro{
+    padding: 20%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+
+.info_1{
+    display: flex;
+}
+.i1{
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.img1{
+    width: 40%;
+    padding-top: 20px;
+}
+
+
+.info p{
+    font-size: 20px;
+}
+
+.contact{
+    background-color: lightgray;
+    padding: 20px;
+}
+.contact_heading{
+    text-align: center;
+    font-size: 30px;
+     padding-top: 10px; 
+}
+.form{
+     margin: 42px auto;
+    max-width: 500px;
+    /* align-items: center; */
+}
+
+.form input{
+    margin: 30px;
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.btn1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 1%;
+}
